@@ -136,29 +136,23 @@ function App() {
       </section>
 
       <section id="inscripcion" className="section signup">
-        <div>
-          <p className="section-label">Inscripciones</p>
-          <h2>Solicita información o reserva tu plaza</h2>
-          <p>
-            Rellena el mensaje desde tu correo y nos pondremos en contacto contigo lo antes posible.
-          </p>
-        </div>
+  <div>
+    <p className="section-label">Inscripciones</p>
+    <h2>Solicita información o reserva tu plaza</h2>
+    <p>
+      Completa nuestro formulario de inscripción y nos pondremos en contacto contigo lo antes posible.
+    </p>
 
-        <form action={`mailto:gymnasticseducation.alcala@gmail.com?subject=${asunto}&body=${cuerpo}`} method="post" encType="text/plain">
-          <input name="nombre" placeholder="Nombre y apellidos" />
-          <input name="edad" placeholder="Edad" />
-          <input name="telefono" placeholder="Teléfono" />
-          <input name="email" type="email" placeholder="Correo electrónico" />
-          <select name="grupo">
-            <option>Grupo de interés</option>
-            <option>Competición pequeños (6–9 años)</option>
-            <option>Competición mayores (9–15 años)</option>
-            <option>Adultos (+16 años)</option>
-          </select>
-          <textarea name="comentarios" rows="5" placeholder="Comentarios o dudas" />
-          <button type="submit">Enviar inscripción</button>
-        </form>
-      </section>
+    <a
+      className="button primary"
+      href="https://docs.google.com/forms/d/e/1FAIpQLSclUJjtdRrpxlQsgc1SVirdix5tz1lmiRwmDkUgrUQpRTgPgQ/viewform"
+      target="_blank"
+      rel="noreferrer"
+    >
+      📝 Rellenar formulario de inscripción
+    </a>
+  </div>
+</section>
 
       <section id="contacto" className="section contact">
         <p className="section-label">Contacto</p>
