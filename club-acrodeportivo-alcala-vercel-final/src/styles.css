@@ -340,3 +340,20 @@ footer p {
     font-size: 0.95rem;
   }
 }
+.big-form-button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 16px 32px;
+  background-color: #0057b8;
+  color: #ffd700;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.big-form-button:hover {
+  background-color: #003f87;
+  transform: translateY(-2px);
+}
