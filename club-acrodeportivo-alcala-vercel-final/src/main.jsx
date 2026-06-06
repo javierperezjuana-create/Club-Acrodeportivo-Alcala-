@@ -20,7 +20,7 @@ const grupos = [
   nombre: 'Iniciación',
   edad: '6-12 años',
   horario: 'Viernes · 16:00–18:00',
-  precio: 'Consultar',
+  precio: '27€/mes',
 },
 ]
 
