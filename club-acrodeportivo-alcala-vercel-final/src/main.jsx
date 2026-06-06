@@ -6,22 +6,22 @@ import './styles.css'
 const grupos = [
   {
     nombre: 'Competición pequeños',
-    edad: '6–9 años',
+    edad: '6–10 años',
     horario: 'Martes y jueves · 18:00–19:00',
     precio: '30€/mes',
   },
   {
     nombre: 'Competición mayores',
-    edad: '9–15 años',
+    edad: '10–15 años',
     horario: 'Martes y jueves · 19:00–20:30',
     precio: '40€/mes',
   },
   {
-    nombre: 'Adultos',
-    edad: '+16 años',
-    horario: 'Martes y jueves · 20:30–21:30',
-    precio: '40€/mes',
-  },
+  nombre: 'Iniciación',
+  edad: '6-12 años',
+  horario: 'Viernes · 16:00–18:00',
+  precio: 'Consultar',
+},
 ]
 
 const galeria = [
